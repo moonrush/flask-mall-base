@@ -1,0 +1,71 @@
+{% extends "admin/admin_base.html" %}
+{% from "admin/region/region_list_item.html" import region_items %}
+{% block style %}
+
+input[type='number']{
+width: 100px;
+}
+.btn{
+margin-right: 30px;
+
+}
+.reg_li {
+height: auto;
+line-height: 28px;
+list-style-type: none;
+}
+.reg_li:before{
+content:"|-- "
+}
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="main col-md-12 col-lg-12 col-xs-12 col-sm-12">
+        <h3>分类列表 - <small><a href="{{ url_for("admin.new_region") }}">添加分类</a> </small></h3>
+        {% if message %}
+        <div class="alert alert-info" role="alert">
+            {{ message }}
+        </div>
+        {% endif %}
+        {% if regions %}
+        <ul>
+            {{ region_items(regions) }}
+        </ul>
+        {% else %}
+        <div class="tip">
+            <h5>没有分类</h5>
+        </div>
+        {% endif %}
+    </div>
+</div>
+<script type="text/javascript">
+    var csrf_token = "{{ csrf_token() }}"
+
+    /**
+     * 删除分类
+     *
+     */
+    function delete_reg(reg_id) {
+        if (!confirm("删除分类同时会删除商品")) {
+            return false
+        }
+        console.log(this)
+        $.ajax({
+            url: "{{ url_for("admin.delete_region") }}",
+            type: "post",
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("X-CSRFToken", csrf_token)
+            },
+            data: { reg_id: reg_id },
+            success: function (data) {
+                if (data == "ok") {
+                    document.getElementById('li_' + reg_id).remove()
+                }
+            }
+
+        })
+
+    }
+</script>
+
+{% endblock %}

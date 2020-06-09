@@ -14,7 +14,8 @@ from xp_mall.admin.category import *
 from xp_mall.admin.member import *
 from xp_mall.admin.upload import *
 from xp_mall.admin.orders import *
-from xp_mall.forms.settings import SettingForm
+from xp_mall.admin.region import *
+# from xp_mall.forms.settings import SettingForm
 @admin_module.before_request
 @login_required
 def is_admin():

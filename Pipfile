@@ -32,8 +32,6 @@ cryptography = "*"
 requests = "*"
 xmltodict = "*"
 qrcode = "*"
-alipay-python = "*"
-flask-alipay = "*"
 click = "*"
 
 [requires]
