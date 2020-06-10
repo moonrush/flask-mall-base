@@ -51,6 +51,7 @@ class ResetPasswordForm(FlaskForm):
 
 
 class AddressForm(FlaskForm):
+    id = StringField('id')
     receiver = StringField('收件人',validators=[DataRequired()])
     mobile   = StringField("电话",validators=[DataRequired()])
     address  = StringField("详细地址",validators=[DataRequired()])

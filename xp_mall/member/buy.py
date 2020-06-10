@@ -10,6 +10,7 @@ from xp_mall.member.cart import empty
 from xp_mall.forms.member import AddressForm
 from xp_mall.models.order import Order, OrderGoods, Cart, Logistics
 from xp_mall.utils import get_pay_obj
+from xp_mall.models.address import Address
 
 
 @member_module.route('/create_order', methods=['get', 'post'])
@@ -19,6 +20,7 @@ def create_order():
     :return:
     '''
     cart_list = Cart.query.filter_by(user_id=current_user.user_id).all()
+    address_list = Address.query.filter_by(user_id=current_user.user_id).all()
     total_price = get_total_price(cart_list)
     form = AddressForm()
     if form.validate_on_submit() and cart_list:
@@ -37,6 +39,18 @@ def create_order():
             address = form.address.data,
             status = ""
         )
+
+        # 如果传上来的数据是新地址则记录
+        if form.id.data == "":
+            address = Address(
+                user_id = current_user.user_id,
+                receiver = form.receiver.data,
+                mobile = form.mobile.data,
+                address = form.address.data,
+            )
+            db.session.add(address)
+            db.session.commit()
+
         # 记录订单商品信息
         # 商品价格是变动的，需要记录下单时价格，以备核对
 
@@ -57,7 +71,7 @@ def create_order():
             db.session.rollback()
         else:
             return redirect(url_for(".pay_order", order_no=order.order_no))
-    return render_template('member/order/buy.html', form=form, cart_list=cart_list, total_price=total_price)
+    return render_template('member/order/buy.html', form=form, cart_list=cart_list, total_price=total_price,address_list=address_list)
 
 
 @member_module.route('/pay_order/<order_no>', methods=['GET', 'POST'])

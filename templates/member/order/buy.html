@@ -1,17 +1,17 @@
 {%  extends "member/member_base.html" %}
 {% block title -%}
-    - 创建订单
+- 创建订单
 {% endblock %}
 {% block style %}
 
-      body{
-				margin:0;
-				padding-top: 70px;
-				background: #fff;
-			}
-      .price{
-          color: #ff1c1c;
-      }
+body{
+margin:0;
+padding-top: 70px;
+background: #fff;
+}
+.price{
+color: #ff1c1c;
+}
 {% endblock %}
 {% block content %}
 
@@ -25,7 +25,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                              <img class="media-object"  src="/uploads/{{ cart.goods.thumb }}" >
+                                <img class="media-object" src="/uploads/{{ cart.goods.thumb }}">
                             </a>
                         </div>
                         <div class="media-body">
@@ -43,8 +43,24 @@
                     <hr>
                     订单总价:{{ total_price }}元
                     <hr>
-                    <form action="{{ url_for("member.create_order") }}" id="order_form" method="post">
 
+                    {% for address in address_list %}
+                    <div>
+                        <input type="radio" name="addr"
+                            value="{{ address.id }};{{ address.receiver }};{{ address.mobile }};{{ address.address }}" />
+                        {{ address.receiver }}
+                        {{ address.mobile }} {{ address.address }}
+                    </div>
+                    {% endfor %}                    
+                    <div>
+                        <input type="radio" name="addr" value="" /> 新地址
+                    </div>
+
+                    <form action="{{ url_for("member.create_order") }}" id="order_form" method="post">
+                        <div class="form-group">
+                            {{ form.id.label }}
+                            {{ form.id(class="form-control") }}
+                        </div>
                         <div class="form-group">
                             {{ form.receiver.label }}
                             {{ form.receiver(class="form-control") }}
@@ -75,14 +91,26 @@
     </div>
 </div>
 
-    <script>
-        $('.btn').on('click', function(){
+<script>
+    $('.btn').on('click', function () {
         console.log("click")
-            $("[name='payment']").val($(this).data('payment'))
-            $("#order_form").submit()
-        })
+        $("[name='payment']").val($(this).data('payment'))
+        $("#order_form").submit()
+    })
 
-
-
-    </script>
+    $('input[type=radio]').on('click', function () {
+        if (this.value) {
+            let arr = this.value.split(';')
+            $('#order_form input[type=text]').each(function (idx) {
+                $(this).val(arr[idx])
+                $(this).attr('readonly', 'readonly')
+            })
+        }else{
+            $('#order_form input[type=text]').each(function (idx) {
+                $(this).val('')
+                $(this).removeAttr('readonly')
+            })
+        }
+    })
+</script>
 {% endblock %}

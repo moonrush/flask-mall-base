@@ -1,0 +1,276 @@
+2020-06-10 13:38:39,503 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:38:39,503 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:38:45,869 INFO 127.0.0.1 - - [10/Jun/2020 13:38:45] "[37mGET /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:38:47,802 INFO 127.0.0.1 - - [10/Jun/2020 13:38:47] "[37mPOST /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:39:00,807 INFO 127.0.0.1 - - [10/Jun/2020 13:39:00] "[37mPOST /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:39:01,593 INFO 127.0.0.1 - - [10/Jun/2020 13:39:01] "[37mPOST /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:39:02,199 INFO 127.0.0.1 - - [10/Jun/2020 13:39:02] "[37mPOST /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:39:07,397 INFO 127.0.0.1 - - [10/Jun/2020 13:39:07] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:39:07,479 INFO 127.0.0.1 - - [10/Jun/2020 13:39:07] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:39:07,578 INFO 127.0.0.1 - - [10/Jun/2020 13:39:07] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.6783816493712969 HTTP/1.1[0m" 200 -
+2020-06-10 13:39:08,943 INFO 127.0.0.1 - - [10/Jun/2020 13:39:08] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:39:09,008 INFO 127.0.0.1 - - [10/Jun/2020 13:39:09] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.8379278439222211 HTTP/1.1[0m" 200 -
+2020-06-10 13:39:10,739 INFO 127.0.0.1 - - [10/Jun/2020 13:39:10] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:39:11,604 INFO 127.0.0.1 - - [10/Jun/2020 13:39:11] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:39:16,014 INFO [b8dfcd74-aadc-11ea-a744-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006100921211854723","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":3000.0}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:39:15&version=1.0&sign=QCRcLTBYcsO6kJyQjlJa56zvZv7rVrEwEHfFirPIIEKLFZ2hcppH2cnCMrX4mkqF3v7N4ZnDmeYpEmhY3xLUJGVdWX3n/5xtfgI8ejwYZVgGDU2wE9ifcOnKslNFBOJ8qoAZ6ouY3nbm0IDQ3xJwx1y/WL82HOLtYUJlFTDnXyOWZkDQbOSprESXE2IH1X1mqbTcEETMFrR3DQ4kFrucq5oiyG6jUtV9bmR2fYfXd6MFAr01wmHupYK9Jwifk4ktXrkBrwoNZ9VeaUWQSfQFy2Uvz/CAgNpar9S2HdYif65TMwfcqH9T9HmeDpG0mnl6AeJ7uymXD6hw7JpiVP78ig==
+2020-06-10 13:39:16,015 INFO 127.0.0.1 - - [10/Jun/2020 13:39:16] "[32mGET /member/pay_order/202006100921211854723 HTTP/1.1[0m" 302 -
+2020-06-10 13:39:35,570 INFO 127.0.0.1 - - [10/Jun/2020 13:39:35] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:39:35,587 INFO 127.0.0.1 - - [10/Jun/2020 13:39:35] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:39:35,832 INFO 127.0.0.1 - - [10/Jun/2020 13:39:35] "[37mGET /static/css/bootstrap.css HTTP/1.1[0m" 200 -
+2020-06-10 13:39:35,942 INFO 127.0.0.1 - - [10/Jun/2020 13:39:35] "[37mGET /static/css/bootstrap-theme.css HTTP/1.1[0m" 200 -
+2020-06-10 13:39:35,993 INFO 127.0.0.1 - - [10/Jun/2020 13:39:35] "[37mGET /static/js/jquery-3.2.1.js HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,277 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /static/js/bootstrap.js HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,323 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,335 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /uploads/2020/6/bf22ed3b-eb20-4cbd-b0ff-096d9d7a18d1_s.jpg HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,345 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,346 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,660 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.763104475273604 HTTP/1.1[0m" 200 -
+2020-06-10 13:39:36,909 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-06-10 13:39:36,977 INFO 127.0.0.1 - - [10/Jun/2020 13:39:36] "[37mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 200 -
+2020-06-10 13:39:38,787 INFO 127.0.0.1 - - [10/Jun/2020 13:39:38] "[37mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 200 -
+2020-06-10 13:39:40,130 INFO 127.0.0.1 - - [10/Jun/2020 13:39:40] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-06-10 13:39:40,179 INFO 127.0.0.1 - - [10/Jun/2020 13:39:40] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.052223480616788276 HTTP/1.1[0m" 200 -
+2020-06-10 13:39:45,821 INFO 127.0.0.1 - - [10/Jun/2020 13:39:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2020-06-10 13:39:46,040 INFO 127.0.0.1 - - [10/Jun/2020 13:39:46] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-06-10 13:39:46,347 INFO 127.0.0.1 - - [10/Jun/2020 13:39:46] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:39:46,613 INFO 127.0.0.1 - - [10/Jun/2020 13:39:46] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:39:46,667 INFO 127.0.0.1 - - [10/Jun/2020 13:39:46] "[37mGET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1[0m" 200 -
+2020-06-10 13:39:46,970 INFO 127.0.0.1 - - [10/Jun/2020 13:39:46] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.5582022813115253 HTTP/1.1[0m" 200 -
+2020-06-10 13:39:48,215 INFO 127.0.0.1 - - [10/Jun/2020 13:39:48] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:39:50,582 INFO 127.0.0.1 - - [10/Jun/2020 13:39:50] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:39:51,839 INFO [ce414cd4-aadc-11ea-ae2a-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006101330159542615","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":1000.0}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:39:51&version=1.0&sign=WoN8KD14z7GRXBJJ9FMF6yIeKrPS4vqbbQobgDNcsbGMl0GuG1Vb5Uc0hQakxypwUCRHo+LoC02lmS0H1lPNB+ZauBFn02twn54czcoux8GFTDfiXR63U6sme7xedFkk0Zey59lyvR70TtU7uj3o0NWbElztZHU5a/zawy/34qDf+bo2H/mft7tA7VjYpS0V0S3jmJ8f7f8Hu/aDXUprZx07//nmMtIkmDtEJrirADrwFpb/eRm92QTq9uZR6YdZ1iYKHJhbLzrMb7+WuHEFFN6ASFJLVSWlbMmbgE76Lv5589+Iw4M4oqWq6mOd34/Lbxs/2Oeibv8pOwryXxi/8g==
+2020-06-10 13:39:51,840 INFO 127.0.0.1 - - [10/Jun/2020 13:39:51] "[32mGET /member/pay_order/202006101330159542615 HTTP/1.1[0m" 302 -
+2020-06-10 13:39:58,602 INFO 127.0.0.1 - - [10/Jun/2020 13:39:58] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:39:59,413 INFO 127.0.0.1 - - [10/Jun/2020 13:39:59] "[35m[1mGET /member/profile HTTP/1.1[0m" 500 -
+2020-06-10 13:39:59,706 INFO 127.0.0.1 - - [10/Jun/2020 13:39:59] "[37mGET /member/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:39:59,735 INFO 127.0.0.1 - - [10/Jun/2020 13:39:59] "[37mGET /member/profile?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:39:59,737 INFO 127.0.0.1 - - [10/Jun/2020 13:39:59] "[37mGET /member/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:40:00,102 INFO 127.0.0.1 - - [10/Jun/2020 13:40:00] "[37mGET /member/profile?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:40:00,121 INFO 127.0.0.1 - - [10/Jun/2020 13:40:00] "[37mGET /member/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:40:00,355 INFO 127.0.0.1 - - [10/Jun/2020 13:40:00] "[37mGET /member/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:40:03,383 INFO 127.0.0.1 - - [10/Jun/2020 13:40:03] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:40:03,402 INFO 127.0.0.1 - - [10/Jun/2020 13:40:03] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:40:03,755 INFO 127.0.0.1 - - [10/Jun/2020 13:40:03] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.23560469158160346 HTTP/1.1[0m" 200 -
+2020-06-10 13:40:04,320 INFO 127.0.0.1 - - [10/Jun/2020 13:40:04] "[37mPOST /member/cart/1 HTTP/1.1[0m" 200 -
+2020-06-10 13:40:06,716 INFO 127.0.0.1 - - [10/Jun/2020 13:40:06] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:40:07,952 INFO 127.0.0.1 - - [10/Jun/2020 13:40:07] "[37mGET /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:40:12,047 INFO 127.0.0.1 - - [10/Jun/2020 13:40:12] "[32mPOST /member/create_order HTTP/1.1[0m" 302 -
+2020-06-10 13:40:12,083 INFO [da521eda-aadc-11ea-9355-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006101340117012906","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":1000.0}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:40:12&version=1.0&sign=iub6u8Nec37H9IcK7tyYWQnVcNhva+W0jtWn/F+icDY+KtzDKImIhPFDf6Qj9qwsGF1e8d+VOo77xPiMQb0xNC+DwE7QzdS0CQIh4Uf1wET5qGTL1PV2ZdITwTHc2CtHv2A7uTQMHkKOMhRqJaL6G3S+ZbZ2Ta0wnSo4sh+fnApnTFmjdzgMC+x52YC/4QjCXcp3y/Om4w/iHFT0C/WcLj20HjrOEwRD0tTg0mIE0a1NPg15f1WGSf13+hbSA2jmC1po49pTBZb/96JSTB7iwX14LgEWu6ZpYVslbeoHRj/h+KchMaZFVIN+/Nq9g6JF1M14+3vlSUllvWC6sqFRuQ==
+2020-06-10 13:40:12,084 INFO 127.0.0.1 - - [10/Jun/2020 13:40:12] "[32mGET /member/pay_order/202006101340117012906 HTTP/1.1[0m" 302 -
+2020-06-10 13:42:42,661 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:42:42,661 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:42:42,662 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:42:45,243 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:42:45,243 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:42:56,538 INFO 127.0.0.1 - - [10/Jun/2020 13:42:56] "[37mGET /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:42:59,944 INFO 127.0.0.1 - - [10/Jun/2020 13:42:59] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:43:01,599 INFO 127.0.0.1 - - [10/Jun/2020 13:43:01] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:43:01,970 INFO 127.0.0.1 - - [10/Jun/2020 13:43:01] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:43:02,324 INFO 127.0.0.1 - - [10/Jun/2020 13:43:02] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.39841485191792314 HTTP/1.1[0m" 200 -
+2020-06-10 13:43:03,328 INFO 127.0.0.1 - - [10/Jun/2020 13:43:03] "[37mPOST /member/cart/1 HTTP/1.1[0m" 200 -
+2020-06-10 13:43:06,508 INFO 127.0.0.1 - - [10/Jun/2020 13:43:06] "[37mGET /member/ HTTP/1.1[0m" 200 -
+2020-06-10 13:43:07,197 INFO 127.0.0.1 - - [10/Jun/2020 13:43:07] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:43:08,268 INFO 127.0.0.1 - - [10/Jun/2020 13:43:08] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:43:10,020 INFO 127.0.0.1 - - [10/Jun/2020 13:43:10] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:43:13,031 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[35m[1mGET /member/pay_order/202006101330159542615 HTTP/1.1[0m" 500 -
+2020-06-10 13:43:13,260 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:43:13,357 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:43:13,358 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:43:13,729 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:43:13,755 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:43:13,980 INFO 127.0.0.1 - - [10/Jun/2020 13:43:13] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:45:07,921 INFO 127.0.0.1 - - [10/Jun/2020 13:45:07] "[35m[1mGET /member/pay_order/202006101330159542615 HTTP/1.1[0m" 500 -
+2020-06-10 13:45:07,942 INFO 127.0.0.1 - - [10/Jun/2020 13:45:07] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:45:08,166 INFO 127.0.0.1 - - [10/Jun/2020 13:45:08] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:45:08,270 INFO 127.0.0.1 - - [10/Jun/2020 13:45:08] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:45:08,595 INFO 127.0.0.1 - - [10/Jun/2020 13:45:08] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:45:08,643 INFO 127.0.0.1 - - [10/Jun/2020 13:45:08] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:45:19,063 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\settings.py', reloading
+2020-06-10 13:45:19,064 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\settings.py', reloading
+2020-06-10 13:45:19,066 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\settings.py', reloading
+2020-06-10 13:45:21,597 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:45:21,597 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:45:27,006 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:45:27,006 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:45:27,008 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:45:29,420 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:45:29,420 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:45:29,764 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:45:29,765 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:45:29,766 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\xp_mall\\utils.py', reloading
+2020-06-10 13:45:32,208 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:45:32,208 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:45:32,633 INFO 127.0.0.1 - - [10/Jun/2020 13:45:32] "[35m[1mGET /member/pay_order/202006101330159542615 HTTP/1.1[0m" 500 -
+2020-06-10 13:45:32,661 INFO 127.0.0.1 - - [10/Jun/2020 13:45:32] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:45:32,830 INFO 127.0.0.1 - - [10/Jun/2020 13:45:32] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:45:32,964 INFO 127.0.0.1 - - [10/Jun/2020 13:45:32] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:45:33,290 INFO 127.0.0.1 - - [10/Jun/2020 13:45:33] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:45:33,317 INFO 127.0.0.1 - - [10/Jun/2020 13:45:33] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:45:33,546 INFO 127.0.0.1 - - [10/Jun/2020 13:45:33] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:48:14,325 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:48:14,325 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:48:15,187 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:48:15,187 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:48:18,102 INFO 127.0.0.1 - - [10/Jun/2020 13:48:18] "[35m[1mGET /member/pay_order/202006101330159542615 HTTP/1.1[0m" 500 -
+2020-06-10 13:48:18,123 INFO 127.0.0.1 - - [10/Jun/2020 13:48:18] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:48:18,297 INFO 127.0.0.1 - - [10/Jun/2020 13:48:18] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:48:18,429 INFO 127.0.0.1 - - [10/Jun/2020 13:48:18] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:48:18,755 INFO 127.0.0.1 - - [10/Jun/2020 13:48:18] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:48:18,804 INFO 127.0.0.1 - - [10/Jun/2020 13:48:18] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:48:19,004 INFO 127.0.0.1 - - [10/Jun/2020 13:48:19] "[37mGET /member/pay_order/202006101330159542615?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:48:25,149 INFO 127.0.0.1 - - [10/Jun/2020 13:48:25] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:48:25,518 INFO 127.0.0.1 - - [10/Jun/2020 13:48:25] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:48:25,883 INFO 127.0.0.1 - - [10/Jun/2020 13:48:25] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.4803868851185733 HTTP/1.1[0m" 200 -
+2020-06-10 13:48:27,212 INFO 127.0.0.1 - - [10/Jun/2020 13:48:27] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:48:28,250 INFO 127.0.0.1 - - [10/Jun/2020 13:48:28] "[37mGET /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:48:36,698 INFO 127.0.0.1 - - [10/Jun/2020 13:48:36] "[32mPOST /member/create_order HTTP/1.1[0m" 302 -
+2020-06-10 13:48:36,719 INFO 127.0.0.1 - - [10/Jun/2020 13:48:36] "[35m[1mGET /member/pay_order/202006101348362508352 HTTP/1.1[0m" 500 -
+2020-06-10 13:48:37,043 INFO 127.0.0.1 - - [10/Jun/2020 13:48:37] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:48:37,044 INFO 127.0.0.1 - - [10/Jun/2020 13:48:37] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:48:37,046 INFO 127.0.0.1 - - [10/Jun/2020 13:48:37] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:48:37,294 INFO 127.0.0.1 - - [10/Jun/2020 13:48:37] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:48:37,381 INFO 127.0.0.1 - - [10/Jun/2020 13:48:37] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:48:37,410 INFO 127.0.0.1 - - [10/Jun/2020 13:48:37] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:50:08,808 INFO 127.0.0.1 - - [10/Jun/2020 13:50:08] "[35m[1mGET /member/pay_order/202006101348362508352 HTTP/1.1[0m" 500 -
+2020-06-10 13:50:08,835 INFO 127.0.0.1 - - [10/Jun/2020 13:50:08] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:50:09,026 INFO 127.0.0.1 - - [10/Jun/2020 13:50:09] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:50:09,136 INFO 127.0.0.1 - - [10/Jun/2020 13:50:09] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:50:09,466 INFO 127.0.0.1 - - [10/Jun/2020 13:50:09] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:50:09,490 INFO 127.0.0.1 - - [10/Jun/2020 13:50:09] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:50:48,383 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\pay\\alipay\\pay_example.py', reloading
+2020-06-10 13:50:48,384 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\pay\\alipay\\pay_example.py', reloading
+2020-06-10 13:50:48,470 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\pay\\alipay\\pay_example.py', reloading
+2020-06-10 13:50:49,554 INFO  * Restarting with windowsapi reloader
+2020-06-10 13:50:50,924 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:50:50,924 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:50:53,248 INFO 127.0.0.1 - - [10/Jun/2020 13:50:53] "[35m[1mGET /member/pay_order/202006101348362508352 HTTP/1.1[0m" 500 -
+2020-06-10 13:50:53,275 INFO 127.0.0.1 - - [10/Jun/2020 13:50:53] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:50:53,444 INFO 127.0.0.1 - - [10/Jun/2020 13:50:53] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:50:53,579 INFO 127.0.0.1 - - [10/Jun/2020 13:50:53] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:50:53,904 INFO 127.0.0.1 - - [10/Jun/2020 13:50:53] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:50:53,939 INFO 127.0.0.1 - - [10/Jun/2020 13:50:53] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:50:54,157 INFO 127.0.0.1 - - [10/Jun/2020 13:50:54] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:50:55,767 INFO 127.0.0.1 - - [10/Jun/2020 13:50:55] "[35m[1mGET /member/pay_order/202006101348362508352 HTTP/1.1[0m" 500 -
+2020-06-10 13:50:56,053 INFO 127.0.0.1 - - [10/Jun/2020 13:50:56] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:50:56,089 INFO 127.0.0.1 - - [10/Jun/2020 13:50:56] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:50:56,091 INFO 127.0.0.1 - - [10/Jun/2020 13:50:56] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:50:56,422 INFO 127.0.0.1 - - [10/Jun/2020 13:50:56] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:50:56,456 INFO 127.0.0.1 - - [10/Jun/2020 13:50:56] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:51:57,888 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\pay\\alipay\\pay_example.py', reloading
+2020-06-10 13:51:57,888 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\pay\\alipay\\pay_example.py', reloading
+2020-06-10 13:51:57,890 INFO  * Detected change in 'E:\\Course\\PyFullStack\\coding\\ecommerce\\flask-mall\\pay\\alipay\\pay_example.py', reloading
+2020-06-10 13:51:58,973 INFO  * Restarting with windowsapi reloader
+2020-06-10 13:52:00,458 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:52:00,458 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:52:23,485 INFO 127.0.0.1 - - [10/Jun/2020 13:52:23] "[35m[1mGET /member/pay_order/202006101348362508352 HTTP/1.1[0m" 500 -
+2020-06-10 13:52:23,505 INFO 127.0.0.1 - - [10/Jun/2020 13:52:23] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-06-10 13:52:23,678 INFO 127.0.0.1 - - [10/Jun/2020 13:52:23] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:52:23,806 INFO 127.0.0.1 - - [10/Jun/2020 13:52:23] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-06-10 13:52:24,136 INFO 127.0.0.1 - - [10/Jun/2020 13:52:24] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-06-10 13:52:24,176 INFO 127.0.0.1 - - [10/Jun/2020 13:52:24] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:52:24,388 INFO 127.0.0.1 - - [10/Jun/2020 13:52:24] "[37mGET /member/pay_order/202006101348362508352?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-06-10 13:52:28,048 INFO 127.0.0.1 - - [10/Jun/2020 13:52:28] "[32mGET /member HTTP/1.1[0m" 308 -
+2020-06-10 13:52:28,354 INFO 127.0.0.1 - - [10/Jun/2020 13:52:28] "[37mGET /member/ HTTP/1.1[0m" 200 -
+2020-06-10 13:52:44,074 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:52:44,074 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:52:44,949 DEBUG http://114.218.2.99:8000/mall/pay/alipay/notify
+2020-06-10 13:52:44,949 DEBUG http://114.218.2.99:8000/mall/pay/alipay/return
+2020-06-10 13:52:49,050 INFO 127.0.0.1 - - [10/Jun/2020 13:52:49] "[37mGET /member/ HTTP/1.1[0m" 200 -
+2020-06-10 13:53:05,424 INFO 127.0.0.1 - - [10/Jun/2020 13:53:05] "[37mGET /member/ HTTP/1.1[0m" 200 -
+2020-06-10 13:53:07,296 INFO 127.0.0.1 - - [10/Jun/2020 13:53:07] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:53:08,709 INFO [a93708a8-aade-11ea-820b-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006100921211854723","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":3000.0}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:53:08&version=1.0&sign=QeObtJLiTc9sXbjPWVXyJPx4qQM+fPcksO0cV6coauXRTwZfbYERFLlb7XM6UDjt3Zxvfj1bWM//7wPAEHcPPysFmnsEOg3jLm3VcA2AKY/dh1WtWVDErQV9/49djDZMKPzNnQ0aqSXBx9LQDaqjwu+foaKUnS6m8eJ85sIj84QtfeA0ZiUvAc5vcKFvg4eNbbljW5bfOgLKVFa8kouyN2QOEP+IAc5iXo5VZShKE5+AsLwJKltH71AvnpNKMrhLe81Aprkqpl/ZVHfN/im2BZ8Ea/iURLGRIjNLlIgniFoHYI+pEBmQnF2TpdhuTPSDfRrYzpl+TXd/p6I/r0NzNA==
+2020-06-10 13:53:08,710 INFO 127.0.0.1 - - [10/Jun/2020 13:53:08] "[32mGET /member/pay_order/202006100921211854723 HTTP/1.1[0m" 302 -
+2020-06-10 13:55:35,744 INFO 127.0.0.1 - - [10/Jun/2020 13:55:35] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:55:36,523 INFO 127.0.0.1 - - [10/Jun/2020 13:55:36] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:55:36,666 INFO 127.0.0.1 - - [10/Jun/2020 13:55:36] "[37mGET /static/css/bootstrap.css HTTP/1.1[0m" 200 -
+2020-06-10 13:55:36,677 INFO 127.0.0.1 - - [10/Jun/2020 13:55:36] "[37mGET /static/css/bootstrap-theme.css HTTP/1.1[0m" 200 -
+2020-06-10 13:55:36,678 INFO 127.0.0.1 - - [10/Jun/2020 13:55:36] "[37mGET /static/js/jquery-3.2.1.js HTTP/1.1[0m" 200 -
+2020-06-10 13:55:41,668 INFO 127.0.0.1 - - [10/Jun/2020 13:55:41] "[37mGET /static/js/bootstrap.js HTTP/1.1[0m" 200 -
+2020-06-10 13:55:43,662 INFO 127.0.0.1 - - [10/Jun/2020 13:55:43] "[37mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:55:43,710 INFO 127.0.0.1 - - [10/Jun/2020 13:55:43] "[37mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 200 -
+2020-06-10 13:55:43,712 INFO 127.0.0.1 - - [10/Jun/2020 13:55:43] "[37mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 200 -
+2020-06-10 13:55:43,721 INFO 127.0.0.1 - - [10/Jun/2020 13:55:43] "[37mGET /uploads/2020/6/bf22ed3b-eb20-4cbd-b0ff-096d9d7a18d1_s.jpg HTTP/1.1[0m" 200 -
+2020-06-10 13:55:45,042 INFO 127.0.0.1 - - [10/Jun/2020 13:55:45] "[32mPOST /member/cart/1 HTTP/1.1[0m" 302 -
+2020-06-10 13:55:45,623 INFO 127.0.0.1 - - [10/Jun/2020 13:55:45] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.3405366806963326 HTTP/1.1[0m" 200 -
+2020-06-10 13:55:45,643 INFO 127.0.0.1 - - [10/Jun/2020 13:55:45] "[37mGET /login?next=%2Fmember%2Fcart%2F1 HTTP/1.1[0m" 200 -
+2020-06-10 13:55:45,816 INFO 127.0.0.1 - - [10/Jun/2020 13:55:45] "[37mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 200 -
+2020-06-10 13:55:46,122 INFO 127.0.0.1 - - [10/Jun/2020 13:55:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-06-10 13:55:47,576 INFO 127.0.0.1 - - [10/Jun/2020 13:55:47] "[37mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 200 -
+2020-06-10 13:55:48,309 INFO 127.0.0.1 - - [10/Jun/2020 13:55:48] "[32mPOST /member/cart/1 HTTP/1.1[0m" 302 -
+2020-06-10 13:55:48,469 INFO 127.0.0.1 - - [10/Jun/2020 13:55:48] "[37mGET /login?next=%2Fmember%2Fcart%2F1 HTTP/1.1[0m" 200 -
+2020-06-10 13:55:55,338 INFO 127.0.0.1 - - [10/Jun/2020 13:55:55] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-06-10 13:55:55,486 INFO 127.0.0.1 - - [10/Jun/2020 13:55:55] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.48217722617098646 HTTP/1.1[0m" 200 -
+2020-06-10 13:55:59,413 INFO 127.0.0.1 - - [10/Jun/2020 13:55:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2020-06-10 13:55:59,510 INFO 127.0.0.1 - - [10/Jun/2020 13:55:59] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-06-10 13:55:59,727 INFO 127.0.0.1 - - [10/Jun/2020 13:55:59] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:55:59,894 INFO 127.0.0.1 - - [10/Jun/2020 13:55:59] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:56:00,061 INFO 127.0.0.1 - - [10/Jun/2020 13:56:00] "[37mGET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:00,064 INFO 127.0.0.1 - - [10/Jun/2020 13:56:00] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.41952132568786604 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:00,920 INFO 127.0.0.1 - - [10/Jun/2020 13:56:00] "[37mPOST /member/cart/1 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:05,995 INFO 127.0.0.1 - - [10/Jun/2020 13:56:05] "[37mGET /member/ HTTP/1.1[0m" 200 -
+2020-06-10 13:56:07,259 INFO 127.0.0.1 - - [10/Jun/2020 13:56:07] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:56:08,651 INFO [147b350c-aadf-11ea-8060-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006101007319131227","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":1000.0}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:56:08&version=1.0&sign=Sghnzb9JhPDZ3H9cLiGMp4RalqN7Ng92uVWhyiSx8ZoUDmTHGYaqytdg5YIpw7vzGTnxmzpZZh8CFFXx+lBK3LP1JUlQHmmB8HA6hU48aOdRE0kmlpUpEtt1dCCzYfz//6uLPb4lsPPxfd62egoLh0UjtdzVL22DQHqGZq9Cs+ENAPDORdPiz3BBZRZud6LO5X6cylrSAsrRUzVoN1AUVTSWc5LiYeL1oP/U2uBUI1oQr/RKZ3oJF5cln5dfPBsEUSm2QAL4UYdjvmM0+lFKEQvE7uxmfrhtB2Y4K4q1mYmEfufZTAcrobWYsvliX8u1g9gPo+V0VWxM7ZNVRObfYQ==
+2020-06-10 13:56:08,652 INFO 127.0.0.1 - - [10/Jun/2020 13:56:08] "[32mGET /member/pay_order/202006101007319131227 HTTP/1.1[0m" 302 -
+2020-06-10 13:56:28,773 INFO 127.0.0.1 - - [10/Jun/2020 13:56:28] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:56:28,874 INFO 127.0.0.1 - - [10/Jun/2020 13:56:28] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:56:29,023 INFO 127.0.0.1 - - [10/Jun/2020 13:56:29] "[37mGET /static/css/bootstrap.css HTTP/1.1[0m" 200 -
+2020-06-10 13:56:29,034 INFO 127.0.0.1 - - [10/Jun/2020 13:56:29] "[37mGET /static/css/bootstrap-theme.css HTTP/1.1[0m" 200 -
+2020-06-10 13:56:29,045 INFO 127.0.0.1 - - [10/Jun/2020 13:56:29] "[37mGET /static/js/jquery-3.2.1.js HTTP/1.1[0m" 200 -
+2020-06-10 13:56:32,360 INFO 127.0.0.1 - - [10/Jun/2020 13:56:32] "[37mGET /static/js/bootstrap.js HTTP/1.1[0m" 200 -
+2020-06-10 13:56:33,828 INFO 127.0.0.1 - - [10/Jun/2020 13:56:33] "[37mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 200 -
+2020-06-10 13:56:33,829 INFO 127.0.0.1 - - [10/Jun/2020 13:56:33] "[37mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 200 -
+2020-06-10 13:56:33,841 INFO 127.0.0.1 - - [10/Jun/2020 13:56:33] "[37mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 200 -
+2020-06-10 13:56:33,851 INFO 127.0.0.1 - - [10/Jun/2020 13:56:33] "[37mGET /uploads/2020/6/bf22ed3b-eb20-4cbd-b0ff-096d9d7a18d1_s.jpg HTTP/1.1[0m" 200 -
+2020-06-10 13:56:35,126 INFO 127.0.0.1 - - [10/Jun/2020 13:56:35] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.5877357591651446 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:35,539 INFO 127.0.0.1 - - [10/Jun/2020 13:56:35] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-06-10 13:56:35,541 INFO 127.0.0.1 - - [10/Jun/2020 13:56:35] "[37mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 200 -
+2020-06-10 13:56:35,807 INFO 127.0.0.1 - - [10/Jun/2020 13:56:35] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.7654664299065661 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:36,336 INFO 127.0.0.1 - - [10/Jun/2020 13:56:36] "[37mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 200 -
+2020-06-10 13:56:36,482 INFO 127.0.0.1 - - [10/Jun/2020 13:56:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-06-10 13:56:39,453 INFO 127.0.0.1 - - [10/Jun/2020 13:56:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2020-06-10 13:56:39,592 INFO 127.0.0.1 - - [10/Jun/2020 13:56:39] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-06-10 13:56:40,095 INFO 127.0.0.1 - - [10/Jun/2020 13:56:40] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:56:40,244 INFO 127.0.0.1 - - [10/Jun/2020 13:56:40] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:56:40,474 INFO 127.0.0.1 - - [10/Jun/2020 13:56:40] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.7960008917147605 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:40,475 INFO 127.0.0.1 - - [10/Jun/2020 13:56:40] "[37mGET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1[0m" 200 -
+2020-06-10 13:56:43,607 INFO 127.0.0.1 - - [10/Jun/2020 13:56:43] "[37mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 200 -
+2020-06-10 13:56:44,966 INFO 127.0.0.1 - - [10/Jun/2020 13:56:44] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:56:47,003 INFO 127.0.0.1 - - [10/Jun/2020 13:56:47] "[37mGET /member/myorders HTTP/1.1[0m" 200 -
+2020-06-10 13:56:48,060 INFO [2bf87f5c-aadf-11ea-8295-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006101330159542615","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":1000.0}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:56:48&version=1.0&sign=OHxBFh0U4DhXYRrQSdkAckD8ZXl4KgsmUSACHNc/uEObWMra9MfSupRNCfmZt/j+i9Rf/pMVFlP/0e95K4WuqwaFzHyC9LmD6HshYAzzDwFL8qrmPnCYOvkMRuWITwpUKnQQrhgYSsdgqSbnThoUpGIBOa5GWerqJShJuuLNHazKCrWPTU2RE49mjM5vFY2zecbJEvFyrTXufLUJvUVev9j0SXy+58ueiKSjBOJOohetLB24HaopLyKIcnmdWZ8bGBVisfO/fWEp6y3NQ5qfjyxkROgyn5g2YOmhhRnENvmMwXPMFoAi7riGoarHpWGbqi1LMlYXtD2JPfhKP7TI7A==
+2020-06-10 13:56:48,061 INFO 127.0.0.1 - - [10/Jun/2020 13:56:48] "[32mGET /member/pay_order/202006101330159542615 HTTP/1.1[0m" 302 -
+2020-06-10 13:57:11,418 INFO 127.0.0.1 - - [10/Jun/2020 13:57:11] "[32mGET /admin HTTP/1.1[0m" 308 -
+2020-06-10 13:57:11,599 INFO 127.0.0.1 - - [10/Jun/2020 13:57:11] "[37mGET /admin/ HTTP/1.1[0m" 200 -
+2020-06-10 13:57:15,423 INFO 127.0.0.1 - - [10/Jun/2020 13:57:15] "[37mGET /admin/manage/goods HTTP/1.1[0m" 200 -
+2020-06-10 13:57:15,618 INFO 127.0.0.1 - - [10/Jun/2020 13:57:15] "[37mGET /static/js/category.js HTTP/1.1[0m" 200 -
+2020-06-10 13:57:15,786 INFO 127.0.0.1 - - [10/Jun/2020 13:57:15] "[37mGET /admin/category?parent_id=0 HTTP/1.1[0m" 200 -
+2020-06-10 13:57:17,377 INFO 127.0.0.1 - - [10/Jun/2020 13:57:17] "[37mGET /admin/category?parent_id=1 HTTP/1.1[0m" 200 -
+2020-06-10 13:57:20,199 INFO 127.0.0.1 - - [10/Jun/2020 13:57:20] "[37mGET /admin/category?parent_id=4 HTTP/1.1[0m" 200 -
+2020-06-10 13:57:26,283 INFO 127.0.0.1 - - [10/Jun/2020 13:57:26] "[37mGET /admin/manage/goods/new HTTP/1.1[0m" 200 -
+2020-06-10 13:57:26,435 INFO 127.0.0.1 - - [10/Jun/2020 13:57:26] "[37mGET /static/css/dropzone.min.css HTTP/1.1[0m" 200 -
+2020-06-10 13:57:26,935 INFO 127.0.0.1 - - [10/Jun/2020 13:57:26] "[37mGET /static/ckeditor/ckeditor.js HTTP/1.1[0m" 200 -
+2020-06-10 13:57:35,576 INFO 127.0.0.1 - - [10/Jun/2020 13:57:35] "[37mGET /static/ckeditor/config.js?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:35,631 INFO 127.0.0.1 - - [10/Jun/2020 13:57:35] "[37mGET /admin/category?parent_id=0 HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,125 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/skins/moono-lisa/editor.css?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,131 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/lang/zh-cn.js?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,623 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/styles.js?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,774 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,775 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/plugins/scayt/dialogs/dialog.css?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,785 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,785 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,791 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,817 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/contents.css?t=J39A HTTP/1.1[0m" 200 -
+2020-06-10 13:57:36,936 INFO 127.0.0.1 - - [10/Jun/2020 13:57:36] "[37mGET /static/ckeditor/skins/moono-lisa/icons.png?t=e1836357e HTTP/1.1[0m" 200 -
+2020-06-10 13:58:06,422 INFO 127.0.0.1 - - [10/Jun/2020 13:58:06] "[37mPOST /admin/upload_thumb HTTP/1.1[0m" 200 -
+2020-06-10 13:58:14,778 INFO 127.0.0.1 - - [10/Jun/2020 13:58:14] "[37mPOST /admin/manage/goods/new HTTP/1.1[0m" 200 -
+2020-06-10 13:58:23,109 INFO 127.0.0.1 - - [10/Jun/2020 13:58:23] "[32mGET / HTTP/1.1[0m" 302 -
+2020-06-10 13:58:23,214 INFO 127.0.0.1 - - [10/Jun/2020 13:58:23] "[37mGET /mall/ HTTP/1.1[0m" 200 -
+2020-06-10 13:58:23,362 INFO 127.0.0.1 - - [10/Jun/2020 13:58:23] "[37mGET /uploads/2020/6/9bba99f7-d7c6-47cb-87a5-d9f7ae5ee015_s.jpg HTTP/1.1[0m" 200 -
+2020-06-10 13:58:23,445 INFO 127.0.0.1 - - [10/Jun/2020 13:58:23] "[37mGET /_debug_toolbar/static/css/toolbar.css?0.3608811884224725 HTTP/1.1[0m" 200 -
+2020-06-10 13:58:25,938 INFO 127.0.0.1 - - [10/Jun/2020 13:58:25] "[37mPOST /member/cart/2 HTTP/1.1[0m" 200 -
+2020-06-10 13:58:28,161 INFO 127.0.0.1 - - [10/Jun/2020 13:58:28] "[37mGET /member/cart HTTP/1.1[0m" 200 -
+2020-06-10 13:58:31,541 INFO 127.0.0.1 - - [10/Jun/2020 13:58:31] "[37mDELETE /member/cart/1 HTTP/1.1[0m" 200 -
+2020-06-10 13:58:32,415 INFO 127.0.0.1 - - [10/Jun/2020 13:58:32] "[37mGET /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:59:13,681 INFO 127.0.0.1 - - [10/Jun/2020 13:59:13] "[37mGET /member/create_order HTTP/1.1[0m" 200 -
+2020-06-10 13:59:20,540 INFO 127.0.0.1 - - [10/Jun/2020 13:59:20] "[32mPOST /member/create_order HTTP/1.1[0m" 302 -
+2020-06-10 13:59:20,738 INFO [86f92324-aadf-11ea-bcc1-34e12dcaea49]request:https://openapi.alipaydev.com/gateway.do?app_id=2016102700771549&biz_content={"body":"∆Ω∏Á…Ã≥«∂©µ•","out_trade_no":"202006101359201838906","product_code":"FAST_INSTANT_TRADE_PAY","subject":"∆Ω∏Á…Ã≥«∂©µ•","total_amount":0.1}&charset=utf-8&format=json&method=alipay.trade.page.pay&notify_url=http://114.218.2.99:8000/mall/pay/alipay/notify&return_url=http://114.218.2.99:8000/mall/pay/alipay/return&sign_type=RSA2&timestamp=2020-06-10 13:59:20&version=1.0&sign=Dgdz5dDsBkwGkMeY7vNS2alXoNpO7hc9rvdFJy5TWjTdbTU3LV9MmFY/pij8psjMbkZfT7FU2annncqrjStnGL7GiS6BIHhvvBd6vCXco2R0K4+nEjYWOWPtU7Xjr20oAf4p80R3S+918rCFx/AIR4/I5CCJ7Vpud2CuZPdOnBR5Hg5fnvhALhHNfbjZ8pqKJN6FGnC4BYSyLDv+4ypYwN/WcbGKkcpc9jfbkA1FSSzYSP7YAzC3nSlfp2hZRtFMW+MXX2ujqZp1SLie7Cwb/D5rY/hADue0oaMwnCiRuKH0Ripx6ujUaxnh8iHyes0ojEgyguazajs4/KPDb7KDPw==
+2020-06-10 13:59:20,739 INFO 127.0.0.1 - - [10/Jun/2020 13:59:20] "[32mGET /member/pay_order/202006101359201838906 HTTP/1.1[0m" 302 -

@@ -188,5 +188,5 @@ def get_pay_obj(payment):
     获得支付接口对象
     :param payment:
     :return:
-    '''
+    '''    
     return  current_app.extensions[payment]
