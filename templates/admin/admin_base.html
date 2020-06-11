@@ -54,7 +54,7 @@
 					<span class="icon-bar"></span>
 
 				</button>
-				<a href="" class="navbar-brand">平哥编程</a>
+				<a href="" class="navbar-brand">taki的网店后台</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navmenu">
 				<!-- 必须设置 navbar-nav-->
@@ -72,7 +72,7 @@
 
                 <ul class="nav navbar-nav pull-right">
                        <li><a href="#">{{ username }}</a></li>
-                       <li><a href="{{ url_for("member.logout") }}">logout</a></li>
+                       <li><a href="{{ url_for("member.logout") }}">退出</a></li>
                 </ul>
 
 			</div>
@@ -85,7 +85,7 @@
 {%  endblock %}
 
 {% block footer %}
-          <footer>
+          <footer style="position: fixed;bottom: 0; width:100%;">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
@@ -95,7 +95,7 @@
 			</div>
 			<nav >
 				<ul class="nav nav-pills   ">
-					<li><a href="">关于网易</a></li>
+					<li><a href="">关于taki</a></li>
 					<li><a href="">网易微专业</a></li>
 					<li><a href="">关于平哥</a></li>
 				</ul>

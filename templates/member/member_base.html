@@ -54,14 +54,14 @@
 					<span class="icon-bar"></span>
 
 				</button>
-				<a href="" class="navbar-brand">平哥编程</a>
+				<a href="" class="navbar-brand">taki的网店</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navmenu">
 				<!-- 必须设置 navbar-nav-->
 				<ul class="nav navbar-nav" >
 					    <li class="active"><a href="{{ url_for("index") }}">返回网站首页</a></li>
                         <li><a href="{{ url_for("member.cart_list") }}">我的购物车</a></li>
-                        <li><a href="{{ url_for("member.profile") }}">我的资料</a></li>
+                        <!-- <li><a href="{{ url_for("member.profile") }}">我的资料</a></li> -->
                         <li><a href="{{ url_for("member.manage_orders") }}">我的订单</a></li>
                 </ul>
 
@@ -79,17 +79,17 @@
 {%  endblock %}
 
 {% block footer %}
-          <footer>
+          <footer style="position: fixed;bottom: 0; width:100%;">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						网易微专业Python全栈课程&copy;2019版权所有
+						taki&copy;2020版权所有
 					</div>
 				</div>
 			</div>
 			<nav >
-				<ul class="nav nav-pills   ">
-					<li><a href="">关于网易</a></li>
+				<ul class="nav nav-pills">
+					<li><a href="">关于taki</a></li>
 					<li><a href="">网易微专业</a></li>
 					<li><a href="">关于平哥</a></li>
 				</ul>
